@@ -21,3 +21,4 @@ class Solution:
 # Time Complexity: O(n^2)
 # Space Complexity: O(n)
 # Time used: 9min
+# Pattern: Arrays & Hashing

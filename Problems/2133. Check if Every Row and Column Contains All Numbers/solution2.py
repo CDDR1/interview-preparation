@@ -14,3 +14,6 @@ class Solution:
         return True
                 
 # Solution using Sets instead of HashMaps, which is the suggested way of solving it according to LeetCode's hints.
+# Time complexity: O(n^2)
+# Space Complexity: O(n)
+# Pattern: Arrays & Hashing

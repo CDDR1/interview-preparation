@@ -12,3 +12,4 @@ class Solution:
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # Time used: 4min
+# Pattern: Arrays & Hashing

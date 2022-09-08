@@ -20,3 +20,4 @@ class Solution:
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 # Time used: about 20 or 25 minutes. Not sure, solved it on a train lol
+# Pattern: Arrays & Hashing
