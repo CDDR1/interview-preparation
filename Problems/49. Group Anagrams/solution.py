@@ -14,23 +14,23 @@ class Solution:
                 else:
                     wordsChars[word][char] = 1
         
-        seenIndexes = set()
+        groupedIndexes = set()
         for indexI, i in enumerate(strs):
             currWord = wordsChars[i]
             currGroup = []
                     
             for indexJ, j in enumerate(strs):
-                if indexJ in seenIndexes:
+                if indexJ in groupedIndexes:
                     continue
                 if indexJ != indexI and currWord == wordsChars[j]:
                     currGroup.append(j)
-                    seenIndexes.add(indexJ)
+                    groupedIndexes.add(indexJ)
                 
-            if indexI not in seenIndexes:
+            if indexI not in groupedIndexes:
                 currGroup.append(i)
                 result.append(currGroup)
             
-            seenIndexes.add(indexI)
+            groupedIndexes.add(indexI)
             
         return result
 
