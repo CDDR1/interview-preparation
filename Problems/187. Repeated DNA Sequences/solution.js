@@ -54,5 +54,5 @@ const findRepeatedDnaSequences = s => {
 // constants. 
 
 // Time complexity: O(n)
-// Space complexity: O(n), where n is the length of the input string. 
+// Space complexity: O(n)
 // Pattern: Arrays & Hashing, Sliding Window.
